@@ -132,8 +132,8 @@ if __name__ == "__main__":
         shorter_port=args.shorter_port,
         target_port=args.target_port,
         baudrate=args.baudrate,
-        pulse_min=3,
-        pulse_max=7,
+        pulse_min=20,
+        pulse_max=22,
         delay_min=435600,
         delay_max=444400,
     )
