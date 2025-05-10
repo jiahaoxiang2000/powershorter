@@ -132,9 +132,9 @@ if __name__ == "__main__":
         shorter_port=args.shorter_port,
         target_port=args.target_port,
         baudrate=args.baudrate,
-        pulse_min=8,
-        pulse_max=9,
+        pulse_min=3,
+        pulse_max=7,
         delay_min=435600,
-        delay_max=442400,
+        delay_max=444400,
     )
     attacker.attack(times=args.times, csv_path=args.csv)
